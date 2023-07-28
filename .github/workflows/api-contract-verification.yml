@@ -1,6 +1,7 @@
 name: API TypeSpec Contract verification
 
 on:
+  workflow_dispatch:
   push:
     branches: ["main"]
     paths:
